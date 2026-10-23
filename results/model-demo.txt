@@ -1,0 +1,8 @@
+SYNTHETIC HOST MODEL - not a hardware measurement
+t= 0.0 state=SCAN_RIGHT       logical=Command(steer_deg=0, speed=55) payloads={'ZONE1': [0, 0], 'ZONE2': [0, 55], 'ZONE3': [1, 55], 'ZONE4': [0, 55]}
+t= 1.0 state=FWD_AFTER        logical=Command(steer_deg=0, speed=50) payloads={'ZONE1': [0, 0], 'ZONE2': [0, 50], 'ZONE3': [1, 50], 'ZONE4': [0, 50]}
+t= 2.0 state=LEFT_FWD         logical=Command(steer_deg=-12, speed=50) payloads={'ZONE1': [0, 12], 'ZONE2': [0, 50], 'ZONE3': [1, 50], 'ZONE4': [0, 50]}
+t= 4.5 state=RIGHT_REV        logical=Command(steer_deg=12, speed=-45) payloads={'ZONE1': [1, 12], 'ZONE2': [1, 45], 'ZONE3': [0, 45], 'ZONE4': [1, 45]}
+t= 7.5 state=REVERSE_TO_WALL  logical=Command(steer_deg=0, speed=-45) payloads={'ZONE1': [0, 0], 'ZONE2': [1, 45], 'ZONE3': [0, 45], 'ZONE4': [1, 45]}
+t= 8.0 state=REVERSE_TO_WALL  logical=Command(steer_deg=0, speed=-45) payloads={'ZONE1': [0, 0], 'ZONE2': [1, 45], 'ZONE3': [0, 45], 'ZONE4': [1, 45]}
+t= 8.5 state=DONE             logical=Command(steer_deg=0, speed=0) payloads={'ZONE1': [0, 0], 'ZONE2': [0, 0], 'ZONE3': [0, 0], 'ZONE4': [0, 0]}
